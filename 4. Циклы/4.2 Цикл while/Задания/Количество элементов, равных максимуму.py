@@ -1,10 +1,11 @@
 a = int(input())
-s = 0
-k = a
+max = a
+k = 0
 while a != 0:
-
-    if k == a:
-        s+=1
-    k = a
+    if a > max:
+        max = a
+        k = 1
+    elif a == max:
+        k += 1
     a = int(input())
-print(s)
+print(k)

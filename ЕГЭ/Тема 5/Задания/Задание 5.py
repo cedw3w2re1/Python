@@ -1,4 +1,13 @@
 # Решение
+def f(n):
+    b = bin(n)[2:]
+    b = b.replace("0", '*')
+    b = b.replace("1", '0')
+    b = b.replace("*", '1')
+    return int(b, 2)
+
+if n-b == 999:
+    print(n)
 
 
 

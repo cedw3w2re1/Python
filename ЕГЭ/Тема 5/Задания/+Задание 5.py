@@ -6,8 +6,10 @@ def f(n):
     b = b.replace("*", '1')
     return int(b, 2)
 
-if n-b == 999:
-    print(n)
+for k in range(1,10000):
+    if k - f(k) == 999:
+        print(k)
+        break
 
 
 
@@ -15,7 +17,7 @@ if n-b == 999:
 
 
 
-answer = ...
+answer = 1011
 
 #
 

@@ -1,47 +1,39 @@
 # Решение
+
 from turtle import *
 tracer(0)
-koef = 20
+k = 20
 
-right(90)
+
 for i in range(2):
-    forward( 3 * koef)
-    left(90)
-    back(10 * koef)
-    left(90)
-
+    fd(2*k)
+    lt(90)
+    bk(10*k)
+    lt(90)
 up()
 
-for x in range(-koef, koef):
-    for y in range(-koef, koef):
-        goto(x * koef, y * koef)
-        dot(3)
-
-for i in range(1):
-    back(10 * koef)
-    right(90)
-    forward(8 * koef)
-    left(90)
+bk(10*k)
+rt(90)
+fd(8*k)
+lt(90)
 
 down()
 
 for i in range(2):
-    forward(16 * koef)
-    right(90)
-    forward(8 * koef)
-    right(90)
-
+    fd(16 * k)
+    rt(90)
+    fd(8 * k)
+    rt(90)
+up()
+for x in range(-k,k):
+    for y in range(-k,k):
+        goto(x*k, y*k)
+        dot(3)
 exitonclick()
 
 
 
-
-
-
-
-
-
-answer = 18
+answer = 177
 
 #
 

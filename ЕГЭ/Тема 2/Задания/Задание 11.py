@@ -1,5 +1,7 @@
 # Решение
 
+from itertools import product, permutations, repeat
+
 
 
 

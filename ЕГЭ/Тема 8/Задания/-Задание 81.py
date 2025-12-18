@@ -15,7 +15,7 @@ print(n)
 
 
 
-answer = 98304
+answer = 49152
 
 #
 

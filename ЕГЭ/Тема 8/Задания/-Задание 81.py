@@ -6,7 +6,7 @@ n = 0
 
 for str in list_v:
     line = ''.join(str)
-    if line.count('Р') == 3 and line.count('О') == 2 and line.count('А') == 2 and line.count('РР') == 0 and line.count('ОО') == 0 and line.count('АА') == 2 :
+    if line.count('Р') == 4 and line.count('О') == 2 and line.count('А') == 2 and line.count('РР') == 0 and line.count('ОО') == 0 and line.count('АА') == 0:
         n += 1
 print(n)
 
@@ -15,7 +15,7 @@ print(n)
 
 
 
-answer = 161280
+answer = 98304
 
 #
 

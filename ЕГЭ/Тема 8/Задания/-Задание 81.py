@@ -1,7 +1,7 @@
 from itertools import *
 k=0
-for al,a2,a3,a4,a5,a6 in product('РУРРАР',repeat=6):
-    s = al+a2+a3+a4+a5+a6
+for a1,a2,a3,a4,a5,a6 in product('РУРРАР',repeat=6):
+    s = a1+a2+a3+a4+a5+a6
 # если в итоговой строке 3 и более букв Р,
 # то в строке без замен было бы три согласных
     if s.count('P')>=3:

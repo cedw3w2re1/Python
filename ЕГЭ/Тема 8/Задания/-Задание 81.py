@@ -1,18 +1,12 @@
-# Решение
-import itertools
-
-list_v = itertools.product('РОРОРАРА', repeat = 8)
-n = 0
-
-for str in list_v:
-    line = ''.join(str)
-    if line.count('Р') == 4 and line.count('О') == 2 and line.count('А') == 2 and line.count('РР') == 0 and line.count('ОО') == 0 and line.count('АА') == 0  and line.count('ОА') == 0  and line.count('АО') == 0  :
-        n += 1
-print(n)
-
-
-
-
+from itertools import *
+k=0
+for al,a2,a3,a4,a5,a6 in product('РУРРАР',repeat=6):
+    s = al+a2+a3+a4+a5+a6
+# если в итоговой строке 3 и более букв Р,
+# то в строке без замен было бы три согласных
+    if s.count('P')>=3:
+        k = k + 1
+print (k)
 
 
 answer = 49152

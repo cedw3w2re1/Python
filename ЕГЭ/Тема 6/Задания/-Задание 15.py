@@ -46,7 +46,7 @@ exitonclick()
 
 
 
-answer = 72
+answer = 236
 
 #
 

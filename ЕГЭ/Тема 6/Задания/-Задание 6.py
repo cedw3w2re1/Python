@@ -33,7 +33,7 @@ exitonclick()
 
 
 
-answer = 44
+answer = 12
 
 #
 

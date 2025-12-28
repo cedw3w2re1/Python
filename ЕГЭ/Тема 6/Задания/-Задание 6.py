@@ -6,7 +6,7 @@ k = 20
 
 
 for i in range(2):
-    fd(2*k)
+    fd(3*k)
     lt(90)
     bk(10*k)
     lt(90)
@@ -33,7 +33,7 @@ exitonclick()
 
 
 
-answer = 177
+answer = 44
 
 #
 
@@ -44,9 +44,6 @@ if answer is not Ellipsis:
 
 
 
-from turtle import *
-tracer(0)
-k = 20
 
 
 

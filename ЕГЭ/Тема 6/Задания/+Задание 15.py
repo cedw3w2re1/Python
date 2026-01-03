@@ -2,7 +2,7 @@
 
 from turtle import *
 
-from statsmodels.tsa.vector_ar.var_model import forecast
+
 
 tracer(0)
 koef = 20

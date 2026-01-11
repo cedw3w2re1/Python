@@ -35,7 +35,6 @@ def check_two_letters(s):
 
 if __name__ =="__main__":
     list_v = itertools.product('РОСМАХ', repeat = 8)
-    list_v = itertools.product('РОСМАХ', repeat=8)
 
     count = 0
     for combo in list_v:
